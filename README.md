@@ -117,6 +117,12 @@ There will be a few questions, as to where you want to send your text, but the a
 File types
 ----------
 
+### PureScript
+
+Note that since multiline mode in psci is only available with the `-m` flag, this plugin assumes multiline
+mode is enabled when editing purescript sourcecode. So far this is the only major difference between purescript
+and haskell support.
+
 ### Haskell
 
 This plugin has support for sending haskell source code to the `ghci`. Syntax differences between `ghci`
